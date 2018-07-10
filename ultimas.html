@@ -1,0 +1,27 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="css/tabs.css" type="text/css" media="screen">
+
+<div id="abas">
+    <ul class="tabs">
+        <li class="tab1"><a class="current" href="#">Notícias</a></li>
+        <li class="tab2"><a class="" href="#">Imagens</a></li>
+        <li class="tab3"><a class="" href="#">Vídeos</a></li>
+        <li class="tab4"><a href="#">Áudios</a></li>
+    </ul>
+
+    <div class="panes">
+        <div style="display: block;">conteudo de noticias</div>
+        <div style="display: none;">Conteúdo de imagens</div>
+        <div style="display: none;">Conteúdo de vídeos</div>
+        <div style="display: none;">Conteúdo de audio</div>
+    </div>
+</div>
+
+<script>
+    // perform JavaScript after the document is scriptable.
+    $(function() {
+        // setup ul.tabs to work as tabs for each div directly under div.panes
+        $("ul.tabs").tabs("div.panes > div");
+    });
+</script>

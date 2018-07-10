@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Governo da Paraíba</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    </head>
+    <body>
+        <div class="barraTopo">
+            <div class="container_24">
+                <div id="local">
+                    <span class="cidade">João Pessoa</span>
+                    <span class="data">27 out</span>
+                    <span class="hora">12:45pm</span>
+                    <span class="tempo">38º</span>
+                </div>
+                <div id="redes">
+                    <span>Redes</span>
+                    <a id="twitter" class="no-indent" href="#"></a>
+                    <a id="orkut" class="no-indent" href="#"></a>
+                    <a id="youtube" class="no-indent" href="#"></a>
+                    <a id="facebook" class="no-indent" href="#"></a>
+                    <a id="flickr" class="no-indent" href="#"></a>
+                    <a id="instagram" class="no-indent" href="#"></a>
+                </div>
+                <a class="facebook-curtir" href="#">Curta a página</a><h1 id="curtir"></h1>
+                <a class="receber-noticias" href="#">Deseja receber notícias?</a>
+                <form name="busca" action="busca" method="POST">
+                    <input class="criterio" placeholder="Busca" type="text" name="criterio" value="" />
+                    <input class="btn-localizar" type="submit" value="" name="localizar" />
+                </form>
+            </div>
+        </div>
+        <header class="container_24">
+            <h1><a id="logoGov" class="no-indent" href="index.html"></a></h1>
+
+            <nav id="bar-acessibilidade">
+                <ul>
+                    <li class="link1">
+                        <a href="#">
+                            Acessibilidade
+                        </a>
+                    </li>
+                    <li class="link2">
+                        <a href="#">
+                            Contrate
+                        </a>
+                    </li>
+                    <li class="link3">
+                        <a href="#">
+                            Dúvidas Frequentes
+                        </a>
+                    </li>
+                    <li class="link4">
+                        <a href="#">
+                            -A
+                        </a>
+                        <a href="#">
+                            +A
+                        </a>
+                        Tamanho da Fonte
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="ads">
+                <img src="temp/728x90.png" />
+            </section>
+
+            <nav id="primario">
+                <ul>
+                    <li>
+                        <a href="#">Principal</a>
+                    </li>
+                    <li>
+                        <a href="#">Governo</a>
+                    </li>
+                    <li>
+                        <a href="sec.html">Secretarias</a>
+                    </li>
+                    <li>
+                        <a href="sec2.html">Indiretas</a>
+                    </li>
+                    <li>
+                        <a href="#">Poderes</a>
+                    </li>
+                    <li>
+                        <a href="#">Especiais</a>
+                    </li>
+                    <li>
+                        <a href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#">Turismo</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="secundario">
+                <span id="acesso"></span> <a class="acesso-informacao" href="#">Acesso à informação</a>
+                <a href="#">1 bilhão de investimento</a>
+                <a href="#">São João Paraíba</a>
+                <a href="#">Dados segurança pública</a>
+                <a class="mais-lidas" href="#">Mais lidas<h1 id="mais"></h1></a>
+            </nav>
+        </header>
+        <div class="container_24">
+
+            <div id="centro">
+                <section id="box-destaque" class="grid_9 omega alpha">
+                    <header>
+                        <h1>Destaques</h1>
+                        <h2>CHUVA DE ARTE SOLIDÁRIA</h2>
+                        <h3><a href="interna.html">Show solidário vai arrecadar alimentos para vítimas da seca</a></h3>
+                    </header>
+                    <p><a href="#">O Governo do Estado vai promover um show beneficente, intitulado “Chuva de Arte Solidária”, em prol das vítimas da seca na Paraíba. O evento acontecerá[...]</a></p>
+                    <a href="#">
+                        <img src="temp/1.jpg" />
+                    </a>
+                </section>
+
+                <section id="box-noticias" class="grid_13  omega alpha">
+                    <header>
+                        <h1>Notícias</h1>
+                        <h2><a>Shows musicais animam a Semana Cultural José Lins do Rego</a></h2>
+                    </header>
+                    <div id="slider">
+                        <a href="#">
+                            <img src="temp/2.jpg" />
+                        </a>
+                        <ul class="nav">
+                            <li class="current">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="box-destaque2" class="grid_9 omega alpha" style="display: none;">
+                    <header>
+                        <h1>Destaques</h1>
+                    </header>
+                    <ul>
+                        <li>
+                            <h2>CHUVA DE ARTE SOLIDÁRIA</h2>
+                            <h3>
+                                <a href="#">
+                                    Show solidário vai arrecadar alimentos para vítimas da seca
+                                </a>
+                            </h3>
+                            <p>
+                                <a href="#">O Governo do Estado vai promover um show beneficente, intitulado “Chuva de Arte Solidária”, em prol das vítimas da seca na Paraíba. O evento acontecerá[...]</a>
+                            </p>
+                        </li>
+
+                        <li>
+                            <h2>CHUVA DE ARTE SOLIDÁRIA</h2>
+                            <h3>
+                                <a href="#">
+                                    Show solidário vai arrecadar alimentos para vítimas da seca
+                                </a>
+                            </h3>
+                            <p>
+                                <a href="#">O Governo do Estado vai promover um show beneficente, intitulado “Chuva de Arte Solidária”, em prol das vítimas da seca na Paraíba. O evento acontecerá[...]</a>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="outras-noticias">
+                    <ul>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    FUNAD
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    Aquecimento na economia
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    Atividades
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    Inscrições
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    Força Tarefa
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <div id="banner250x250" class="grid_9 omega alpha">
+                    <div class="ads">
+                        <a href="#" title=""><img title="" alt="" src="temp/banner250x250.jpg" /></a>
+                    </div>
+                </div>
+
+                <section id="mais-noticias" class="grid_11">
+                    <ul>
+                        <li class="grid_5 alpha">
+                            <a href="#" title=""><img src="temp/3.jpg" title="" alt=""></a>
+                            <h1>
+                                <a href="#">
+                                    Bibliotecas públicas do Estado reúnem acervo de cerca de 130 mil obras
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    História e conhecimento ao alcance do povo. Assim se apresentam as bibliotecas públicas mantidas pelo 
+                                    Governo do Estado. Juntas, elas reúnem um acervo aproximado em[...]
+                                </a>
+                            </p>
+                        </li>
+                        <li class="grid_5 omega">
+                            <a href="#" title=""><img src="temp/4.jpg" title="" alt=""></a>
+                            <h1>
+                                <a href="#">
+                                    Bibliotecas públicas do Estado reúnem acervo de cerca de 130 mil obras
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    História e conhecimento ao alcance do povo. Assim se apresentam as bibliotecas públicas mantidas pelo 
+                                    Governo do Estado. Juntas, elas reúnem um acervo aproximado em[...]
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <section id="box-diario-oficial" class="grid_7 alpha">
+                    <header>Edições recentes</header>
+                    <span class="antetitulo ">Diário Oficial</span>
+
+                    <div class="conteudo">
+                        <img src="temp/diario.png" />
+                    </div>
+
+                    <div class="anteriores">
+                        <select id="dias" title="Selecione o Dia" name="type">
+                            <option selected="selected" value="any">DIA</option>
+                            <option value="#">1</option>
+                            <option value="#">2</option>
+                            <option value="#">3</option>
+                            <option value="#">4</option>
+                            <option value="#">5</option>
+                            <option value="#">6</option>
+                            <option value="#">7</option>
+                            <option value="#">8</option>
+                            <option value="#">9</option>
+                            <option value="#">10</option>
+                            <option value="#">11</option>
+                            <option value="#">12</option>
+                            <option value="#">13</option>
+                            <option value="#">14</option>
+                            <option value="#">15</option>
+                            <option value="#">16</option>
+                            <option value="#">17</option>
+                            <option value="#">18</option>
+                            <option value="#">19</option>
+                            <option value="#">20</option>
+                            <option value="#">21</option>
+                            <option value="#">22</option>
+                            <option value="#">23</option>
+                            <option value="#">24</option>
+                            <option value="#">25</option>
+                            <option value="#">26</option>
+                            <option value="#">27</option>
+                            <option value="#">28</option>
+                            <option value="#">29</option>
+                            <option value="#">30</option>
+                        </select>
+
+                        <select id="meses" title="Selecione o mês"name="mes" size="1">
+                            <option selected value="Jan">Jan</option>
+                            <option value="Fev">Fev</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Abr">Abr</option>
+                            <option value="Mai">Mai</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Ago">Ago</option>
+                            <option value="Set">Set</option>
+                            <option value="Out">Out</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dez">Dez</option>
+                        </select>
+
+                        <select id="ano" title="Selecione o ano" name="ano" size="1">
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                        </select>
+                        <input class="busca" type="submit" value="Busca" name="busca" />
+                    </div>
+
+                    <ul>
+                        <li>
+                            <a href="#">01.06.2012</a>
+                        </li>
+                        <li>
+                            <a href="#">01.06.2012</a>
+                        </li>
+                        <li>
+                            <a href="#">01.06.2012</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-mais">Ver mais</a>
+                </section>
+
+                <section id="box-auniao" class="grid_7 alpha">
+                    <header>On-line</header>
+                    <span class="antetitulo ">A união</span>
+                    <div class="conteudo">
+                        <img src="temp/uniao.png" />
+                    </div>
+                </section>
+
+                <section id="box-ultimas" class="grid_8 alpha">
+
+                    <header>Últimas</header>
+
+                    <div id="abas">
+                        <ul class="tabs">
+                            <li class="tab1"><a href="#">Notícias</a></li>
+                            <li class="tab2"><a class="current"  href="#">Imagens</a></li>
+                            <li class="tab3"><a href="#">Vídeos</a></li>
+                            <li class="tab4"><a href="#">Áudios</a></li>
+                        </ul>
+
+                        <div class="panes">
+                            <div class="noticias" style="display: block;">
+                                <ul>
+                                    <li><a href="#">Plenária Nacional - João Pessoa receberá fórum de Conselhos Estaduais de Educação</a></li>
+                                    <li><a href="#">Patrulha Rural instensifica atuação em Patos</a></li>
+                                    <li><a href="#">Em João Pessoa - SES e Conselho Estadual de Saúde realizam seminário sobre Lei reguladora da saúde</a></li>
+                                    <li><a href="#">Vice-governador participa de Conferência Nacional dos Legisladores e Legislativos</a></li>
+                                </ul>
+                                <a class="btn-mais" href="#">Ver mais</a>
+                                <a class="btn-mais" href="#">Ver todas</a>
+                            </div>
+                            <div  class="imagens" style="display: none;">
+                                <ul id="imagens">
+                                    <li>
+                                        <a href="#"><img src="temp/foto5.jpg" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="temp/foto6.jpg" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="temp/foto7.jpg" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="temp/foto8.jpg" /></a>
+                                    </li>
+                                </ul>
+                                <a class="btn-mais" href="#">Ver mais</a>
+                                <a class="btn-mais" href="#">Ver todas</a>
+                            </div>
+                            <div style="display: none;">
+                                <ul id="videos">
+                                    <li>
+                                        <h3>
+                                            <a href="#">Dia do Trabalho</a>
+                                        </h3>
+                                        <img src="temp/video1.png" />
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="#">Gente como a gente Episódio 2: Lição de casa</a>
+                                        </h3>
+                                        <img src="temp/video2.png" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="audios" style="display: none;">
+                                <ul id="audios">
+                                    <li><a href="#">Plenária Nacional - João Pessoa receberá fórum de Conselhos Estaduais de Educação</a></li>
+                                    <li><a href="#">Patrulha Rural instensifica atuação em Patos</a></li>
+                                    <li><a href="#">Em João Pessoa - SES e Conselho Estadual de Saúde realizam seminário sobre Lei reguladora da saúde</a></li>
+                                    <li><a href="#">Vice-governador participa de Conferência Nacional dos Legisladores e Legislativos</a></li>
+                                </ul>
+                                <a class="btn-mais" href="#">Ver mais</a>
+                                <a class="btn-mais" href="#">Ver todas</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="btn-portal-do-servidor" class="grid_9 omega alpha">
+                    <span><a href="#">Portal do Servidor</a></span>
+                </section>
+
+                <section id="btn-portal-da-transparencia" class="grid_9 omega">
+                    <span><a href="#">Portal da Transparência</a></span>
+                </section>
+
+                <section id="box-utilidade" class="grid_12 omega alpha">
+
+                    <header>
+                        <h1>Utilidade</h1>
+                        <h2><strong>Especiais</strong></h2>
+                    </header>
+
+                    <ul>
+                        <li><a href="">Orçamento Democrático</a></li>
+
+                        <li><a href="">Pacto Pelo Desenvolvimento Social</a></li>
+
+                        <li><a href="">Empreender Paraíba</a></li>
+
+                        <li><a href="">Portal da Transparência</a></li>
+
+                        <li><a href="">Jogos Escolares</a></li>
+
+                        <li><a href="">Paraíba Unida Pela Paz</a></li>
+
+                        <li><a href="">PBVEST</a></li>
+
+                        <li><a href="">CONSOCIAL</a></li>
+
+                        <li><a href="">III Conferência Estadual de Política para as Mulheres</a></li>
+
+                        <li><a href="">II Conferência Estadual LGBT</a></li>
+
+                        <li><a href="">XLIX Fórum Nacional Dos Secretários Estaduais de Planejamento</a></li>
+                    </ul>
+                </section>
+                <section id="box-radio-tabajara" class="grid_8 omega">
+                    <h1>
+                        <a title="Rádio Tabajara" id="logoTabajara" class="no-indent" href="#"></a>
+                    </h1>
+
+                    <header>On-line</header>
+
+                    <a id="fm" title="Ouvir Rádio Tabajara FM" href="#">
+                        <label>Clique para ouvir</label>
+                        <span>FM</span>
+                        <div class="station">111.0</div>
+                    </a>
+
+                    <a id="am" title="Ouvir Rádio Tabajara AM" href="#">
+                        <label>Clique para ouvir</label>
+                        <span>FM</span>
+                        <div class="station">105.5</div>
+                    </a>
+
+                </section>
+                <section id="box-destinoparaiba" class="grid_8 omega alpha">
+                    <header>On-line</header>
+                    <h1>
+                        <a title="Paraíba muito mais que sol e mar" id="paraibaSolMar" class="no-indent" href="#"></a>
+                    </h1>
+                    <img src="temp/pbsolmar.png" />
+                    <footer>www.destinoparaiba.pb.gov.br</footer>
+                </section>
+
+                <section id="box-acompanhe" class="grid_11 omega alpha">
+                    <h3>    
+                        Acompanhe nas redes sociais
+                    </h3>    
+                    <ul>
+                        <li class="facebook">
+                            <a title="Facebook" href="#"></a>
+                        </li>
+                        <li class="twitter">
+                            <a title="Twitter" href="#"></a>
+                        </li> 
+                        <li class="youtube">
+                            <a title="Youtube" href="#"></a>
+                        </li>
+                        <li class="flickr">
+                            <a title="Flickr" href="#"></a>
+                        </li>
+                        <li class="orkut">
+                            <a title="Orkut" href="#"></a>
+                        </li>
+                        <li class="instagram">
+                            <a title="Instagram" href="#"></a>
+                        </li>
+                    </ul>
+                    <span>@secultpb</span>
+                </section>
+                <section id="outras-noticias" class="box2">
+                    <ul>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    ATIVIDADES
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                        <li class="grid_4">
+                            <h1>
+                                <a href="#">
+                                    Força tarefa
+                                </a>
+                            </h1>
+                            <p>
+                                <a href="#">
+                                    Programação especial da Sudema marca a Semana do Meio Ambiente
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="ads728x90">
+                    <img src="temp/728x90.png" />
+                </section>
+            </div>
+
+            <aside id="direita" class="grid_5 omega alpha">
+
+                <section id="box-evento" class="grid_4 omega alpha">
+                    <header>Parabéns</header>
+                    <h1>
+                        São José
+                        de Piranhas
+                    </h1>
+                    <h2>
+                        147 anos
+                    </h2>
+                </section>
+
+                <div id="menu">
+                    <header>Serviços</header>
+                    <span class="antetitulo ">Cidadão</span>
+                    <ul>
+                        <li class="cat"><a href="#">AESA</a></li>
+                        <li><a href="#">Previsão do Tempo</a></li>
+                        <li><a href="#">Volume dos açudes</a></li>
+                        <li class="cat"><a href="#">AGEVISA</a></li>
+                        <li><a href="#">Alerta Sanitário</a></li>
+                        <li class="cat"><a href="#">CAGEPA </a></li>
+                        <li><a href="#">2ª via de conta</a></li>
+                        <li><a href="#">Solicitar ligação de água</a></li>
+                        <li class="cat"><a href="#">CGE</a></li>
+                        <li><a href="#">Contas Públicas</a></li>
+                        <li class="cat"><a href="#">SIGA</a></li>
+                        <li class="cat"><a href="#">DETRAN</a></li>
+                        <li><a href="#">Boleto de Habilitação</a></li>
+                        <li><a href="#">Consulta Exames</a></li>
+                        <li><a href="#">Consulta Veículo</a></li>
+                        <li><a href="#">Extrato de Multas</a></li>
+                        <li class="cat"><a href="#">DETRAN</a></li>
+                        <li><a href="#">IPVA</a></li>
+                        <li><a href="#">Licenciamento</a></li>
+                        <li><a href="#">Pontuação CNH</a></li>
+                        <li class="cat"><a href="#">SAÚDE</a></li>
+                        <li><a href="#">Lista de medicamentos</a></li>
+                    </ul>
+
+                    <span class="antetitulo ">Empresa</span>
+                    <ul>
+                        <li class="cat"><a href="#">Emissão do DAR</a></li>
+                    </ul>
+
+                    <span class="antetitulo ">Serviços</span>
+                    <ul>
+                        <li class="cat"><a href="#">ADMINISTRAÇÃO</a></li>
+                        <li><a href="#">Consulta de processo</a></li>
+                        <li class="cat"><a href="#">ADMINISTRAÇÃO</a></li>
+                        <li><a href="#">Consulta Licitações</a></li>
+                        <li class="cat"><a href="#">ADMINISTRAÇÃO</a></li>
+                        <li><a href="#">Portal do Servidor</a></li>
+                        <li class="cat"><a href="#">ADMINISTRAÇÃ</a></li>
+                        <li><a href="#">Portal do servidor</a></li>
+                        <li><a href="#">Contracheque</a></li>
+                    </ul>
+
+                    <ul id="btn-servicos">
+                        <li class="servico1"><a href="#" ><span>Delegacia On line</span></a></li>
+                        <li class="servico2"><a href="#" ><span>Central de compras</span></a></li>
+                        <li class="servico3"><a href="#"><span>Sagres on line</span></a></li>
+                        <li class="servico4"><a href="#"><span>Portal do Servidor</span></a></li>
+                        <li class="servico5"><a href="#"><span>Download</span></a></li>
+                        <li class="servico6"><a href="#"><span>Webmail</span></a></li>
+                        <li class="servico7"><a href="#"><span>Telefones úteis</span></a></li>
+                    </ul>
+                </div>
+                <section class="ads120x240">
+                    <img src="temp/120x240.png" />
+                </section>
+
+                <span class="redesgov">Redes Gov</span>
+
+                <section id="box-instagram">
+                    <header></header>
+                    <ul>
+                        <li>
+                            <img src="temp/foto1.png" />
+                        </li>
+                        <li>
+                            <img src="temp/foto2.png" />
+                        </li>
+                        <li>
+                            <img src="temp/foto3.png" />
+                        </li>
+                        <li>
+                            <img src="temp/foto4.png" />
+                        </li>
+                    </ul>
+                    <a class="btn-mais" href="#">Ver mais</a>
+                    <a class="btn-mais" href="#">Ver todas</a>
+                </section>
+
+                <section id="box-youtube">
+                    <header></header>
+                    <ul>
+                        <li>
+                            <img src="temp/video1.png" />
+                        </li>
+                        <li>
+                            <img src="temp/video2.png" />
+                        </li>
+                    </ul>
+                    <a class="btn-mais" href="#">Ver mais</a>
+                    <a class="btn-mais" href="#">Ver todas</a>
+                </section>
+            </aside>
+        </div>
+        <footer class="container_24">
+            <section id="box-navegacao">
+
+                <header>Navegação</header>
+                <span class="antetitulo "><strong>Secretarias</strong> Indiretas Serviços</span>
+
+                <ul><li><a href="#">Administração</a></li>
+                    <li><a href="#">Administração Penitenciária</a></li>
+                    <li><a href="#">Casa Civil</a></li>
+                    <li><a href="#">Casa Militar</a></li>
+                    <li><a href="#">Comunicação Institucional</a></li>
+                    <li><a href="#">Controladoria Geral</a></li>
+                    <li><a href="#">Corpo de Bombeiros</a></li>
+                    <li><a href="#">Cultura</a></li>
+                    <li><a href="#">Defensoria Pública Geral</a></li></ul>
+
+                <ul><li><a href="#">Desenvolvimento da Agropecuária e da Pesca</a></li>
+                    <li><a href="#">Desenvolvimento e Articulação Municipal</a></li>
+                    <li><a href="#">Desenvolvimento Humano</a></li>
+                    <li><a href="#">Educação</a></li>
+                    <li><a href="#">Especial do PAC</a></li>
+                    <li><a href="#">Finanças</a></li>
+                    <li><a href="#">Infra-estrutura</a></li>
+                    <li><a href="#">Interiorização</a></li>
+                    <li><a href="#">Juventude, Esporte e Lazer</a></li></ul>
+
+                <ul><li><a href="#">Mulher e da Diversidade Humana</a></li>
+                    <li><a href="#">Planejamento e Gestão</a></li>
+                    <li><a href="#">Polícia Militar</a></li>
+                    <li><a href="#">Procuradoria Geral
+                            <li><a href="#">Rec. Hídricos, Meio Amb. e Ciência e Tecno.</a></li>
+                            <li><a href="#">Receita</a></li>
+                            <li><a href="#">Saúde</a></li>
+                            <li><a href="#">Segurança e Defesa Social</a></li>
+                            <li><a href="#">Turismo e Desenvolvimento Econômico</a></li></ul>
+            </section>
+
+            <nav id="primario">
+                <ul>
+                    <li>
+                        <a href="#">Principal</a>
+                    </li>
+                    <li>
+                        <a href="#">Governo</a>
+                    </li>
+                    <li>
+                        <a href="#">Secretarias</a>
+                    </li>
+                    <li>
+                        <a href="#">Indiretas</a>
+                    </li>
+                    <li>
+                        <a href="#">Poderes</a>
+                    </li>
+                    <li>
+                        <a href="#">Especiais</a>
+                    </li>
+                    <li>
+                        <a href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#">Turismo</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+                <div id="redes">
+                    <span>Redes</span>
+                    <a id="twitter" class="no-indent" href="#"></a>
+                    <a id="orkut" class="no-indent" href="#"></a>
+                    <a id="youtube" class="no-indent" href="#"></a>
+                    <a id="facebook" class="no-indent" href="#"></a>
+                    <a id="flickr" class="no-indent" href="#"></a>
+                    <a id="instagram" class="no-indent" href="#"></a>
+                </div>
+            </nav>
+
+            <div id="facebook-box">
+                <img src="temp/facebook.jpg" />
+            </div>
+
+            <h1><a id="logoGov" class="no-indent" href="#"></a></h1>
+            <span class="slogan">
+                agora é a vez de ir mais longe
+            </span>
+
+        </footer>
+
+    </body>
+</html>

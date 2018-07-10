@@ -1,0 +1,131 @@
+
+#abas {
+    width: 310px;
+    height: 318px;
+    background: #9d9fa2;
+    float: left;
+    margin: 28px 0px 0px 0px;
+}
+#abas ul.tabs {
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+    height:30px;
+    background: #edeef0;
+}
+
+/* single tab */
+#abas ul.tabs li {
+    float: left;
+    height: 30px;
+    list-style-image: none !important;
+    margin-right: 6px;
+    padding: 0;
+    text-indent: 0;
+    text-transform: uppercase;
+    width: 71px;
+}
+#abas ul.tabs li.tab1 {
+    background: #9d9fa2;
+}
+#abas ul.tabs li.tab2 {
+    background: #b1b3b6;
+}
+#abas ul.tabs li.tab3 {
+    background: #dcddde;
+}
+#abas ul.tabs li.tab3 a {
+    color: #9d9fa2;
+}
+#abas ul.tabs li.tab4 {
+    background: #f8f8f8;
+    width: 79px;
+    margin: 0px 0px 0px 0px;
+}
+#abas ul.tabs li.tab4 a{
+    color: #b1b3b6;
+}
+
+/* link inside the tab. uses a background image */
+#abas ul.tabs a {
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 29px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 1px;
+    width: 79px;
+}
+
+#abas ul.tabs a:active {
+    outline:none;
+}
+
+/* when mouse enters the tab move the background image */
+#abas ul.tabs a:hover {
+    background-position: -420px -31px;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+#abas ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+    cursor:default !important;
+}
+#abas ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+    cursor:default !important;
+}
+
+/* width 2 */
+#abas ul.tabs a.l { background-position: -248px -0px; width:174px; }
+#abas ul.tabs a.l:hover { background-position: -248px -31px; }
+#abas ul.tabs a.l.current { background-position: -248px -62px; }
+
+
+/* initially all panes are hidden */
+#abas .panes  {
+    float: left;
+}
+#abas .panes .pane {
+    display:none;
+    height: 289px;
+    width: 310px;
+}
+
+#abas .panes div {
+    display:none;
+    padding:15px 10px;
+}
+
+#abas .panes ul{
+    width: 283px;
+    height: 232px;
+    position: relative;
+}
+#abas .panes ul li{
+    background: url("../images/sprite.png") no-repeat scroll -12px -633px transparent;
+    float: left;
+    margin: 15px 0 0;
+    padding-left: 13px;
+}
+#abas .panes ul li a{
+    color: #fff;
+    font-family: 'Telex',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#abas .panes .btn-mais {
+    background: url("../images/sprite.png") no-repeat scroll 11px -211px transparent !important;
+    color: dimGray;
+    float: right;
+    font-size: 10px;
+    height: 12px;
+    margin: 6px 0 0 12px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 56px;
+}
