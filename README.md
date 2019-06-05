@@ -1,5 +1,5 @@
-# paraiba.pb.gov.br
+# www.paraiba.pb.gov.br
 
-Projeto desenvolvido no periodo em que trabalhei na Secretaria de Comunicação do Governo do Estado da Paraíba (SECOM)
+Projeto desenvolvido no periodo em que trabalhei na Secretaria de Comunicação do Governo do Estado da Paraíba (SECOM), com auxilio da equipe de Diretoria de Governo Eletrônico (DGE). Proposta de padronização da identidade visual de todos as páginas de secretarias da administração direta e indireta do Governo da Paraíba.
 
-A composição do projeto teve início pela equipe da Diretória de Governo Eletrônico (DGE) e posteriormente concluída, onde havia a proposta de padronização da identidade visual de todos as páginas de secretarias da administração direta e indireta do Governo da Paraíba.
+
